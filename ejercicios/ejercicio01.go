@@ -6,11 +6,16 @@ import (
 
 func ConvertStringToInt(stringValue string) (int, string) {
 	// Conversión de string a Int
-	valueConvertedToInt, _ := strconv.Atoi(stringValue)
+	intNumber, err := strconv.Atoi(stringValue)
 
-	if valueConvertedToInt > 100 {
-		return valueConvertedToInt, "Es mayor a 100"
+	// Manejo del error
+	if err != nil {
+		return 0, "Hubo un error " + err.Error()
+	}
+
+	if intNumber > 100 {
+		return intNumber, "Es mayor a 100"
 	} else {
-		return valueConvertedToInt, "Es menor a 100"
+		return intNumber, "Es menor a 100"
 	}
 }

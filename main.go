@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+	"runtime"
+
 	"github.com/diegourrego4/godesde0/ejercicios"
 	"github.com/diegourrego4/godesde0/variables"
-	"runtime"
 )
 
 func main() {
@@ -34,7 +35,7 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}
 
-	numberConverted, message := ejercicios.ConvertStringToInt("80")
+	numberConverted, message := ejercicios.ConvertStringToInt("500")
 	fmt.Println("numberConverted =", numberConverted)
 	fmt.Println("message =", message)
 
