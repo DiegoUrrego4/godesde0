@@ -1,9 +1,11 @@
 package main
 
-import "github.com/diegourrego4/godesde0/ejercicios"
+import (
+	"github.com/diegourrego4/godesde0/files"
+)
 
+// "github.com/diegourrego4/godesde0/ejercicios"
 // "github.com/diegourrego4/godesde0/variables"
-
 // "github.com/diegourrego4/godesde0/teclado"
 // import "github.com/diegourrego4/godesde0/iteraciones"
 
@@ -39,7 +41,8 @@ func main() {
 	// fmt.Println("message =", message)
 	// teclado.InsertNumbers()
 	// iteraciones.Iterar()
-
-	ejercicios.ShowMultiplyingTable()
-
+	// fmt.Println(ejercicios.ShowMultiplyingTable())
+	// files.SaveTable()
+	// files.AddTableToFile()
+	files.ReadFile()
 }
