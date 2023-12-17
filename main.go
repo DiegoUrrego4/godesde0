@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/diegourrego4/godesde0/files"
+	"github.com/diegourrego4/godesde0/funciones"
 )
 
 // "github.com/diegourrego4/godesde0/ejercicios"
@@ -44,5 +44,7 @@ func main() {
 	// fmt.Println(ejercicios.ShowMultiplyingTable())
 	// files.SaveTable()
 	// files.AddTableToFile()
-	files.ReadFile()
+	// files.ReadFile()
+	// funciones.LlamarClosure()
+	funciones.Exponencia(2)
 }
