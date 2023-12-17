@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/diegourrego4/godesde0/funciones"
+	"github.com/diegourrego4/godesde0/arreglos_slices"
 )
 
+// "github.com/diegourrego4/godesde0/funciones"
 // "github.com/diegourrego4/godesde0/ejercicios"
 // "github.com/diegourrego4/godesde0/variables"
 // "github.com/diegourrego4/godesde0/teclado"
@@ -46,5 +47,6 @@ func main() {
 	// files.AddTableToFile()
 	// files.ReadFile()
 	// funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+	arreglos_slices.Capacidad()
 }
